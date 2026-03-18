@@ -2,7 +2,7 @@ from Glicemia import Glicemia
 
 def popular_lista_arquivo(lista, nome_base):
     #ler do arquivo e popular a lista com dados splitados
-    leitor = open(nome_base, "r", encoding="utf8")
+    leitor = open(nome_base, "r", encoding="utf-8")
     
     for linha in leitor:
         vetor_linha = linha.split(",")
